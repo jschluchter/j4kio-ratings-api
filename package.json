@@ -1,9 +1,10 @@
 {
   "name": "rating-api",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "j4k ratings API",
   "author": "Joey Schluchter <jschluchter@gmail.com>",
   "scripts": {
+    "start": "NODE_ENV='development' node ./bin/www",
     "dev": "NODE_ENV='development' MONGODB_URI='mongodb://localhost:27017/webratings' node ./bin/www",
     "localmachine": "NODE_ENV='development' MONGODB_URI='mongodb://localhost:27019/webratings' node ./bin/www",
     "container": "NODE_ENV='development' node ./bin/www"
